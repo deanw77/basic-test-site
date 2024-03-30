@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+}
+
+header {
+    background-color: black;
+}
+
+header h1 {
+    color: orange;
+    text-align: center;
+    padding: 18px;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 18px;
+    list-style-type: none;
+    margin: auto;
+    text-align: center;
+
+}
+
+header ul li {
+    border: 1px solid chocolate;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+header ul li a {
+    color: chocolate;
+    text-decoration: none;
+}
+
+section {
+    padding: 40px;
+}
+
+section hr {
+    padding: 2px;
+    margin: 18px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.eachCard {
+    font-weight: bolder;
+    font-size: 4rem;
+    padding: 180px 50px;
+    border: 3px solid blue;
+    border-radius: 20px;
+}
+
+#card1 {
+    background-color: aquamarine;
+}
+
+#card2 {
+    background-color: rgb(79, 248, 0);
+}
+
+#card3 {
+    background-color: #FF5544;
+}
+
+#itemCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 20px;
+}
+
+.item img {
+    width: 280px;
+    border-radius: 50px;
+}
+
+footer {
+    background-color: black;
+}
+
+footer h3 {
+    color: orange;
+    text-align: center;
+    padding: 18px;
+}
